@@ -5,7 +5,7 @@ import TabelaImc from "./TabelaImc"
 //destruct - Desestruturação - acessa os dados de outro componente
 function Resultado({resultado}){
     return (
-        <div className="fundo">
+        <div>
             <div className="tabela">
                 <h2>
                     Seu IMC é de: <span class name="imcSpan">{resultado}</span>
