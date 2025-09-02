@@ -36,7 +36,7 @@ function App() {
         <Header/>
         <form>
           <div>
-            <label htmlfor="Altura"><span>(exemplo:1.80)</span></label>
+            <label htmlfor="Altura"><span>Altura: (exemplo: 1.80)</span></label>
             <input type="number" 
             id="altura"
             placeholder="Digite sua altura"
@@ -45,7 +45,7 @@ function App() {
             />
           </div>
           <div>
-            <label htmlfor="Peso"><span>(exemplo:80)</span></label>
+            <label htmlfor="Peso"><span>Peso: (exemplo: 80)</span></label>
             <input type="number" 
             id="peso"
             placeholder="Digite seu peso"
