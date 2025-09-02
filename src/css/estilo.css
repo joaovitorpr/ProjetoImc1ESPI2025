@@ -47,7 +47,7 @@ input{
     border-radius: 10px;
     font-size: 16px;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 5px 15px rgba(132, 153, 250, 0.4);
 }
 button{
     background: rgb(87, 255, 255);
@@ -58,5 +58,12 @@ button{
     font-weight: 100px;
     cursor: pointer;
     margin-top: 4px;
+    
+}
+button:hover{
+    transform: translate(-2px);
     box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+button:active{
+    transform: translateY(0);
 }
