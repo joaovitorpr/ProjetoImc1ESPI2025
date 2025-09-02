@@ -1,0 +1,6 @@
+.resultado-container{
+    background-color: blue;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(132, 153, 250, 0.4);
+}
